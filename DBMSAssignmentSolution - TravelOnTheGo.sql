@@ -71,8 +71,7 @@ where Passenger_name like 'S%';
 
 /*--- 6) Calculate price charged for each passenger displaying Passenger name, Boarding City,
 Destination City, Bus_Type, Price in the output      -------*/
-select * from price;
-select * from passenger;
+
 
 select passenger_name,boarding_city,destination_city,pr.bus_type, pr.price
 from passenger pa
